@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="hps_entityid">mplus.mn</string>
+    <string name="hps_token">VnZCSkdIZWk4Q21XeWx3bw</string>
+    <string name="hps_code">BBE586D4EAE65BF7E0532A64A8C097BA</string>
+    <string name="hps_grant_type">authorization_code</string>
+    <string name="hps_verify_result_url">https://test.hipay.mn/cardverify/result</string>
+</resources>

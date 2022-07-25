@@ -54,6 +54,7 @@ android {
 repositories {
   mavenCentral()
   google()
+  maven { url 'https://jitpack.io' }
 
   def found = false
   def defaultDir = null
@@ -126,6 +127,8 @@ dependencies {
     //noinspection GradleDynamicVersion
   implementation "com.facebook.react:react-native:+"
 // From node_modules
+implementation 'com.github.ssuheesh:hps-token-library:0.0.4b'
+implementation 'com.google.code.gson:gson:2.8.9'
 }
 
 if (isNewArchitectureEnabled()) {
