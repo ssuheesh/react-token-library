@@ -18,3 +18,9 @@ const ReactTokenLibrary = NativeModules.ReactTokenLibrary  ? NativeModules.React
 export function multiply(a: number, b: number): Promise<number> {
   return ReactTokenLibrary.multiply(a, b);
 }
+export function cardList(a: string): Promise<string>{
+  return ReactTokenLibrary.cardList(a)
+}
+export function cardAdd(a: string): Promise<string> {
+  return ReactTokenLibrary.cardAdd(a, (e: any)=>{console.log(e)})
+}
